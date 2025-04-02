@@ -1,0 +1,274 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    padding: 0;
+    color: #222; /* Darker Text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #222; /* Dark Text */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f8f8f8;
+    text-decoration: underline;
+}
+
+/* Card Section */
+.card {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #222; /* Darker text inside cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #111; /* Darker headings */
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Dark list items */
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 28px;
+    color: #333;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #222;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 200px;  /* Resized for professional look */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/* Education Section */
+#education {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#education:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#education p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+/* Skills Section */
+#skills {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#skills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#skills ul {
+    padding-left: 20px;
+}
+
+#skills li {
+    font-size: 18px;
+    color: #222;
+    margin: 10px 0;
+}
+/* Extracurricular Section */
+#extracurricular {
+    background: rgba(245, 245, 245, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#extracurricular:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+#extracurricular ul {
+    padding-left: 20px;
+}
+
+#extracurricular li {
+    font-size: 18px;
+    color: #222;
+    margin: 10px 0;
+}
+.certifications-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .certifications-list a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+  }
+  .resume-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .resume-link:hover {
+    color: #ff6600;
+    text-decoration: underline;
+  }
+  
+  .resume-icon {
+    margin-right: 8px;
+    font-size: 24px;
+  }
+    
